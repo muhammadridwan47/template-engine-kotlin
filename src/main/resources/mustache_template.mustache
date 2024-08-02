@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <items>
+     {{#items}}
+        <item>
+            <name>{{name}}</name>
+            <value>{{value}}</value>
+          {{#isActive}}
+            <status>Active</status>
+          {{/isActive}}
+          {{^isActive}}
+            <status>Inactive</status>
+          {{/isActive}}
+        </item>
+     {{/items}}
+    </items>
+</data>

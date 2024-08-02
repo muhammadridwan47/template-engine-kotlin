@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <items>
+      {% for item in items %}
+        <item>
+            <name>{{ item.name | upper }}</name>
+            <value>{{ item.value }}</value>
+            {% if item.active %}
+            <status>Active</status>
+            {% else %}
+            <status>Inactive</status>
+            {% endif %}
+        </item>
+      {% endfor %}
+    </items>
+</data>

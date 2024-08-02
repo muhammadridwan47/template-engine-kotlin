@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <items>
+                   <item>
+                <name>ITEM 1</name>
+                <name>ITEM 1</name>
+                <value>Value 1</value>
+                  <status>Active</status>
+            </item>
+            <item>
+                <name>ITEM 2</name>
+                <name>ITEM 2</name>
+                <value>Value 2</value>
+                  <status>Inactive</status>
+            </item>
+            <item>
+                <name>ITEM 3</name>
+                <name>ITEM 3</name>
+                <value>Value 3</value>
+                  <status>Active</status>
+            </item>
+    </items>
+</data>
